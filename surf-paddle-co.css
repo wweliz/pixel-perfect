@@ -1,0 +1,146 @@
+body {
+	margin: 0 auto;
+    padding: 0;
+    display: block;
+}
+
+h1 {
+	padding-top: 224px;
+	text-align:center;
+	text-transform: uppercase;
+	margin: 0 auto;
+	font-family: 'Asap', sans-serif;
+	font-size: 100px;
+	color: #FFFFFF;
+}
+
+h2 {
+	text-align:center;
+	margin: 0 auto;
+	font-family: 'Asap', sans-serif;
+	font-size: 16px;
+}
+
+
+.header-whole {
+	padding-top: 26px;
+	background: url('images/tophead-big.png') no-repeat;
+	background-size: cover;
+	height: 555px;
+	width: 100%;
+	position: relative;
+}
+
+.header-whole h3 {
+	display: inline-block;
+	margin: 0;
+	font-family: 'Asap', sans-serif;
+	font-size: 18px;
+	color:#083451;
+}
+
+.header-whole ul {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	list-style-type: none;
+	font-family: 'Asap', sans-serif;
+	font-size: 18px;
+	color:#083451;
+}
+
+.header-whole ul li{
+	display: inline-block;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.body-text {
+	height: 870px;
+	width: 680px;
+	color: #1673bb
+}
+
+.body-text h3 {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-size: 69px;
+	line-height: 78px;
+	color: #083452;
+}
+
+.body-text blockquote {
+	font-family: 'Asap', sans-serif;
+	text-transform: uppercase;
+	font-size: 31px;
+	line-height: 78px;
+	color:#1673bb
+	top: 10px;
+  	margin-bottom: 10px;
+  	margin-left: 50px;
+  	padding-left: 15px;
+  	border-left: 3px solid #ccc;
+}
+
+.body-text p {
+	display: inline-block;
+	font-family: 'Asap', sans-serif;
+	font-size: 19px;
+	line-height: 30px;
+	color: black;
+}
+
+.sidebar-right {
+	display: inline-block;
+	width: 278px;
+	display: block;
+	text-align:left;
+	background-color: blue;
+}
+
+.sidebar-about-this-ad {
+	text-align:right;
+}
+
+.sidebar-section-head {
+	text-transform: uppercase;
+	text-align:left;
+}
+
+.sidebar-section-text {
+	text-align:left;
+}
+
+.most-pop {
+	text-align: center;
+}
+
+.footer-box {
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	background: #083452;
+	height: 97px;
+	width: 100%;
+}
+
+.footer-text1 {
+	padding-left: 162px;
+	float: left;
+	width: 488px;
+	text-align: right;
+	
+}
+
+.footer-text2 {
+	padding-right: 162px;
+	float: right;
+	width: 488px;
+	text-align: left;
+	
+}
+
