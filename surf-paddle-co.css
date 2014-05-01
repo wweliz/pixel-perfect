@@ -4,13 +4,28 @@ body {
     display: block;
 }
 
+a:link {
+	color: #083452;
+	text-decoration: none;
+}
+
+a:hover {
+	color:#1673bb;
+	text-decoration: underline
+}
+
+a:visited {
+	color: blue;
+	text-decoration: none
+}
+
 h1 {
-	padding-top: 224px;
+	padding-top: 220px;
 	text-align:center;
 	text-transform: uppercase;
 	margin: 0 auto;
 	font-family: 'Asap', sans-serif;
-	font-size: 100px;
+	font-size: 108px;
 	color: #FFFFFF;
 }
 
@@ -21,19 +36,19 @@ h2 {
 	font-size: 16px;
 }
 
-
 .header-whole {
-	padding-top: 26px;
+	padding-top: 8px;
 	background: url('images/tophead-big.png') no-repeat;
 	background-size: cover;
-	height: 555px;
+	height: 572px;
 	width: 100%;
 	position: relative;
 }
 
 .header-whole h3 {
-	display: inline-block;
-	margin: 0;
+	display: inline;
+	position: absolute;
+	left: 0;
 	font-family: 'Asap', sans-serif;
 	font-size: 18px;
 	color:#083451;
@@ -99,24 +114,34 @@ h2 {
 	width: 278px;
 	display: block;
 	text-align:left;
-	background-color: blue;
 }
 
 .sidebar-about-this-ad {
+	font-family: 'Asap', sans-serif;
 	text-align:right;
+	
 }
 
 .sidebar-section-head {
+	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
 	text-align:left;
+	color: #083452;
 }
 
 .sidebar-section-text {
 	text-align:left;
+	font-family: 'Asap', sans-serif;
+	color: #a8a8a8
 }
 
 .most-pop {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
 	text-align: center;
+	font-size: 69px;
+	line-height: 78px;
+	color: #083452;
 }
 
 .footer-box {
@@ -126,6 +151,7 @@ h2 {
 	background: #083452;
 	height: 97px;
 	width: 100%;
+	color: #a8a8a8
 }
 
 .footer-text1 {
@@ -133,7 +159,6 @@ h2 {
 	float: left;
 	width: 488px;
 	text-align: right;
-	
 }
 
 .footer-text2 {
@@ -143,4 +168,3 @@ h2 {
 	text-align: left;
 	
 }
-
