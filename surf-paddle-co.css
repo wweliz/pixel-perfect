@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-	width: 978px;
+	width: 1000px;
 	margin: 0 auto;
 	position: relative;
 }
@@ -92,26 +92,41 @@ h2 {
 .pic-and-byline p {
 	display: inline-block;
 	font-family: 'Asap', sans-serif;
-	font-size: 19px;
+	font-size: 15px;
 	line-height: 30px;
 	color:#1673bb;
 	margin: 0 auto;
-
 }
 
-.pic-and-byline a {
+.pic-and-byline a, .pic-and-byline a:visited {
 	display: inline-block;
 	font-family: 'Asap', sans-serif;
-	font-size: 19px;
+	font-size: 15px;
+	line-height: 30px;
+	color: #a8a8a8;
+	margin: 0 auto;
+}
+
+.pic-and-byline a:hover {
+	display: inline-block;
+	font-family: 'Asap', sans-serif;
+	font-size: 15px;
 	line-height: 30px;
 	color:#1673bb;
+	text-decoration: underline;
 	margin: 0 auto;
-
 }
+
+.pic-and-byline span {
+	font-family: 'Asap', sans-serif;
+	font-size: 15px;
+	line-height: 30px;
+	color:#a8a8a8;
+	margin: 0 auto;}
 
 .body-text {
 	display: inline-block;
-	width: 680px;
+	width: 657px;
 	color: #555555;
 }
 
@@ -136,7 +151,7 @@ h2 {
   	border-left: 3px solid #ccc;
 }
 
-.body-text p {
+.copyblock {
 	display: inline-block;
 	font-family: 'Asap', sans-serif;
 	font-size: 19px;
