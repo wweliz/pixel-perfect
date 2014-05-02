@@ -160,7 +160,6 @@ h2 {
 }
 
 .sidebar-right {
-	margin-top: 91px;
 	float: right;
 	display: inline-block;
 	width: 278px;
@@ -172,36 +171,54 @@ h2 {
 }
 
 .round-pic {
-	height: 96px;
-	width: 96px;
-	display: block;
-	text-align: center;;
+	height: 95px;
+	width: 95px;
+	padding-top: 92px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 6px;
+	text-align: center;
 	padding-bottom: 10px;
 }
 
-.social-media ul, li, p {
+.social-media ul, li, .social-media p {
 	display: inline-block;
 	margin: 0 auto;
 	padding-left: 0;
 	padding-right: 0;
 	padding-bottom: 10px;
 	list-style-type: none;
+	color: #1673bb;
+}
+
+.social-media p{
+	color: #858585;
 }
 
 .sidebar-about-this-ad {
 	font-family: 'Asap', sans-serif;
 	text-align:right;
+	float: right;
 }
+
+.sidebar-about-this-ad a {
+	position: absolute;
+	right: 0;ly y
+}
+
+
+.sidebar-text {
+	text-align: left;
+}
+
 
 .sidebar-section-head {
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
-	text-align:left;
 	color:#1673bb;
 }
 
 .sidebar-section-text {
-	text-align:left;
 	font-family: 'Asap', sans-serif;
 	color: #a8a8a8;
 }
