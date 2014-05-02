@@ -58,7 +58,7 @@ h2 {
 	margin-left: 11px;
 	margin-top: 16px;
 	left: 0;
-	font-family: 'Asap', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 19px;
 	color:#083451;
 }
@@ -171,34 +171,48 @@ h2 {
 	color: #a8a8a8;
 }
 
-.sidebar-right ul {
-	display: inline-block;
-	padding-left: 0;
+.round-pic {
+	height: 96px;
+	width: 96px;
+	display: block;
+	text-align: center;;
+	padding-bottom: 10px;
 }
 
-.sidebar-right li {
+.social-media ul, li, p {
 	display: inline-block;
-	width: 278px;
+	margin: 0 auto;
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 10px;
 	list-style-type: none;
 }
 
 .sidebar-about-this-ad {
 	font-family: 'Asap', sans-serif;
 	text-align:right;
-	
 }
 
 .sidebar-section-head {
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
 	text-align:left;
-	color: #083452;
+	color:#1673bb;
 }
 
 .sidebar-section-text {
 	text-align:left;
 	font-family: 'Asap', sans-serif;
 	color: #a8a8a8;
+}
+
+.horiz-rule {
+    min-height: 1px;
+    clear:both; width:100%;
+    border-bottom:1px solid #d1d1d1;
+    height:1px; padding-top:5px;
+    margin-top:50px;
+    margin-bottom:50px;
 }
 
 .most-pop {
@@ -211,9 +225,16 @@ h2 {
 	color: #083452;
 }
 
+.most-pop-pics img{
+	display: inline-block;
+	position:relative;
+	float: left;
+	width: 25%;
+}
+
 .footer-box {
 	background: #083452;
-	height: 97px;
+	height: 600px;
 	width: 100%;
 	color: #a8a8a8;
 	font-family: 'Asap', sans-serif;
