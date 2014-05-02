@@ -97,6 +97,7 @@ h2 {
 	line-height: 30px;
 	color:#1673bb;
 	margin: 0 auto;
+	padding-bottom: 18px;
 }
 
 .pic-and-byline a, .pic-and-byline a:visited {
@@ -148,8 +149,9 @@ h2 {
 	line-height: 77px;
 	color:#1673bb;
 	top: 10px;
-  	margin-bottom: 10px;
-  	margin-left: 50px;
+	margin-top: 0px;
+  	margin-bottom: 12px;
+  	margin-left: 15px;
   	padding-left: 15px;
   	border-left: 3px solid #ccc;
 }
@@ -161,6 +163,12 @@ h2 {
 	font-size: 16px;
 	line-height: 27px;
 	color: #555555;
+}
+
+.copyblock p {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 22px;
 }
 
 .icon-comment, .icon-cloud, .icon-share {
@@ -234,12 +242,11 @@ h2 {
 	padding-bottom: 16px;
 }
 
-.sidebar-about-this-ad {
+.sidebar-about-this-ad a {
 	font-family: 'Asap', sans-serif;
 	text-align:right;
-}
-
-.sidebar-about-this-ad a {
+	font-size: 14px;
+	padding-top: 7px;
 	position: absolute;
 	right: 0;
 }
