@@ -210,23 +210,25 @@ h2 {
 	right: 0;
 }
 
-
 .sidebar-text {
 	text-align: left;
-	margin-top: 20px;
+	margin-top: 69px;
 }
-
 
 .sidebar-section-head {
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
+	font-size: 18px;
 	color:#1673bb;
-	margin: 0;
+	margin-bottom: 4px;
 }
 
 .sidebar-section-text {
 	font-family: 'Asap', sans-serif;
 	color: #a8a8a8;
+	font-size: 14px;
+	line-height: 24px;
+	margin: 0px;
 }
 
 .horiz-rule {
