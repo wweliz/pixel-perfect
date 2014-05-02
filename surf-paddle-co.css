@@ -163,6 +163,28 @@ h2 {
 	color: #555555;
 }
 
+.icon-comment, .icon-cloud, .icon-share {
+	display: inline-block;
+	margin:0 auto;
+}
+
+.icon-comment a, .icon-cloud a, .icon-share a {
+	display: inline-block;
+	color: white;
+}
+
+.icon-comment {
+	height: 30px;
+    width: 200px;
+	text-align:left;
+	background-color: #a8a8a8;
+}
+
+.icon-comment:hover {
+	text-decoration: none;
+    background-color: #5e686f;
+}
+
 .sidebar-right {
 	float: right;
 	display: inline-block;
@@ -196,7 +218,7 @@ h2 {
 }
 
 .social-media p{
-	color: #083451;
+	color: #1673bb;
 	padding-bottom: 16px;
 }
 
