@@ -173,16 +173,28 @@ h2 {
 	color: white;
 }
 
-.icon-comment {
+.icon-comment, .icon-cloud, .icon-share {
 	height: 30px;
     width: 200px;
 	text-align:left;
 	background-color: #a8a8a8;
 }
 
-.icon-comment:hover {
+.icon-share {
+	height: 30px;
+    width: 200px;
+	text-align:left;
+	background-color: #1673bb;
+}
+
+.icon-comment:hover, .icon-cloud:hover {
 	text-decoration: none;
     background-color: #5e686f;
+}
+
+.icon-share:hover {
+	text-decoration: none;
+    background-color: #083452;
 }
 
 .sidebar-right {
