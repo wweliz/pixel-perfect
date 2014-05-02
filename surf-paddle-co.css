@@ -291,11 +291,48 @@ h2 {
 	color: #083452;
 }
 
+.most-pop-pics {
+	height: 400px;
+	width: 100%;
+}
+
 .most-pop-pics img{
 	display: inline-block;
 	position:relative;
 	float: left;
 	width: 25%;
+}
+
+.surfer-a {
+	float: left;
+	height: 100%;
+	width: 25%;
+	background: url('images/surfer-a.jpg');
+	background-size: cover;
+}
+
+.surfer-b {
+	float: left;
+	height: 100%;
+	width: 25%;
+	background: url('images/surfer-b.jpg');
+	background-size: cover;
+}
+
+.surfer-c {
+	float: left;
+	height: 100%;
+	width: 25%;
+	background: url('images/surfer-c.jpg');
+	background-size: cover;
+}
+
+.surfer-d {
+	float: left;
+	height: 100%;
+	width: 25%;
+	background: url('images/surfer-d.jpg');
+	background-size: cover;
 }
 
 .footer-box {
@@ -315,4 +352,17 @@ h2 {
 .footer-text2 ul li {
 	float: right;
 	list-style-type: none;
+}
+
+.footer-overlay-1 {
+	height: 100%;
+	background: rgba(17,117,192,0.5);
+	color: blue
+
+}
+
+.footer-overlay-1:hover {
+	height: 100%;
+	background: none;
+	color: white;
 }
