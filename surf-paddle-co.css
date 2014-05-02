@@ -309,6 +309,13 @@ h2 {
 	width: 25%;
 	background: url('images/surfer-a.jpg');
 	background-size: cover;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 69px;
+	line-height: 69px;
+	margin: 0 auto;
+	color: #FFFFFF;
 }
 
 .surfer-b {
@@ -317,6 +324,13 @@ h2 {
 	width: 25%;
 	background: url('images/surfer-b.jpg');
 	background-size: cover;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 69px;
+	line-height: 69px;
+	margin: 0 auto;
+	color: #FFFFFF;
 }
 
 .surfer-c {
@@ -325,6 +339,13 @@ h2 {
 	width: 25%;
 	background: url('images/surfer-c.jpg');
 	background-size: cover;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 69px;
+	line-height: 69px;
+	margin: 0 auto;
+	color: #FFFFFF;
 }
 
 .surfer-d {
@@ -333,6 +354,13 @@ h2 {
 	width: 25%;
 	background: url('images/surfer-d.jpg');
 	background-size: cover;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 69px;
+	line-height: 69px;
+	margin: 0 auto;
+	color: #FFFFFF;
 }
 
 .footer-box {
@@ -354,14 +382,14 @@ h2 {
 	list-style-type: none;
 }
 
-.footer-overlay-1 {
+.footer-overlay {
 	height: 100%;
 	background: rgba(17,117,192,0.5);
 	color: blue
 
 }
 
-.footer-overlay-1:hover {
+.footer-overlay:hover {
 	height: 100%;
 	background: none;
 	color: white;
