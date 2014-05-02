@@ -31,7 +31,7 @@ h1 {
 	margin-bottom: -13px;
 	font-family: 'Oswald', sans-serif;
 	font-size: 83px;
-	letter-spacing: 3px;
+	letter-spacing: 12px;
 	color: #FFFFFF;
 }
 
@@ -93,7 +93,7 @@ h2 {
 .pic-and-byline p {
 	display: inline-block;
 	font-family: 'Asap', sans-serif;
-	font-size: 15px;
+	font-size: 13px;
 	line-height: 30px;
 	color:#1673bb;
 	margin: 0 auto;
@@ -102,7 +102,7 @@ h2 {
 .pic-and-byline a, .pic-and-byline a:visited {
 	display: inline-block;
 	font-family: 'Asap', sans-serif;
-	font-size: 15px;
+	font-size: 13px;
 	line-height: 30px;
 	color: #a8a8a8;
 	margin: 0 auto;
@@ -111,7 +111,7 @@ h2 {
 .pic-and-byline a:hover {
 	display: inline-block;
 	font-family: 'Asap', sans-serif;
-	font-size: 15px;
+	font-size: 13px;
 	line-height: 30px;
 	color:#1673bb;
 	text-decoration: underline;
@@ -120,7 +120,7 @@ h2 {
 
 .pic-and-byline span {
 	font-family: 'Asap', sans-serif;
-	font-size: 15px;
+	font-size: 13px;
 	line-height: 30px;
 	color:#a8a8a8;
 	margin: 0 auto;}
@@ -134,16 +134,18 @@ h2 {
 .body-text h3 {
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
-	font-size: 69px;
-	line-height: 78px;
+	font-size: 62px;
+	line-height: 69px;
 	color: #083452;
+	margin-top: 64px;
+ 	margin-bottom: 7px;
 }
 
 .body-text blockquote {
 	font-family: 'Asap', sans-serif;
 	text-transform: uppercase;
-	font-size: 31px;
-	line-height: 78px;
+	font-size: 27px;
+	line-height: 77px;
 	color:#1673bb;
 	top: 10px;
   	margin-bottom: 10px;
@@ -153,10 +155,11 @@ h2 {
 }
 
 .copyblock {
+	padding-top: 10px;
 	display: inline-block;
 	font-family: 'Asap', sans-serif;
-	font-size: 19px;
-	line-height: 30px;
+	font-size: 16px;
+	line-height: 27px;
 	color: #555555;
 }
 
@@ -172,12 +175,11 @@ h2 {
 }
 
 .round-pic {
-	height: 95px;
-	width: 95px;
-	padding-top: 92px;
+	height: 84px;
+	width: 84px;
+	padding-top: 83px;
 	padding-left: 50px;
 	padding-right: 50px;
-	padding-bottom: 6px;
 	text-align: center;
 	padding-bottom: 10px;
 }
@@ -185,31 +187,33 @@ h2 {
 .social-media ul, li, .social-media p {
 	display: inline-block;
 	margin: 0 auto;
+	padding-top: 3px;
 	padding-left: 0;
 	padding-right: 0;
-	padding-bottom: 10px;
+	padding-bottom: 0px;
 	list-style-type: none;
 	color: #1673bb;
 }
 
 .social-media p{
 	color: #083451;
+	padding-bottom: 16px;
 }
 
 .sidebar-about-this-ad {
 	font-family: 'Asap', sans-serif;
 	text-align:right;
-	float: right;
 }
 
 .sidebar-about-this-ad a {
 	position: absolute;
-	right: 0;ly y
+	right: 0;
 }
 
 
 .sidebar-text {
 	text-align: left;
+	margin-top: 20px;
 }
 
 
@@ -217,6 +221,7 @@ h2 {
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
 	color:#1673bb;
+	margin: 0;
 }
 
 .sidebar-section-text {
